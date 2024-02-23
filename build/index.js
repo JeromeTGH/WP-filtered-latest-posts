@@ -1,0 +1,1 @@
+(()=>{"use strict";const e=window.React;(0,window.wp.blocks.registerBlockType)("wp-filtered-latest-posts/bloc1",{title:"WP filtered latest posts",icon:"editor-table",category:"design",edit:()=>(0,e.createElement)("div",null,"Code HTML dans l'éditeur"),save:()=>(0,e.createElement)("div",null,"Code HTML dans le navigateur")})})();
