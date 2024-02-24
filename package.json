@@ -12,6 +12,7 @@
   "author": "JeromeTGH",
   "license": "ISC",
   "devDependencies": {
+    "@wordpress/block-editor": "^12.20.0",
     "@wordpress/scripts": "^27.3.0"
   }
 }

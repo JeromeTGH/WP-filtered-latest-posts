@@ -13,8 +13,9 @@
 
     function bloc1_creation_et_init() {
 
-        $asset_file = include(plugin_dir_path( __FILE__ )."build/index.asset.php");
 
+        // Ajout du fichier JS
+        $asset_file = include(plugin_dir_path( __FILE__ )."build/index.asset.php");
         wp_register_script(
             "bloc1",
             plugins_url("build/index.js", __FILE__ ),
@@ -22,6 +23,7 @@
             $asset_file["version"]
         );
 
+        // Ajout d'un type de bloc
         register_block_type("wp-filtered-latest-posts/bloc1", [
             "editor_script" => "bloc1"
         ]);
